@@ -1,0 +1,42 @@
+
+.remarksInput{
+    width: 80%;
+    padding: 10px;
+    background-color: rgb(231, 229, 229);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+.remarksInput:focus{
+    outline: none;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actionButton{
+    cursor: pointer;
+    color: white;
+    padding:5px 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.accept{
+    background-color: rgb(6, 73, 6);
+    margin-right: 20px;
+}
+.reject{
+    background-color: rgb(143, 2, 2);
+}
+
+.accept:hover{
+    background-color: rgb(8, 238, 8);
+}
+.reject:hover{
+    background-color: red;
+}

@@ -1,0 +1,30 @@
+.page {
+  font-family: "Josefin Sans", sans-serif;
+  width: 100vw;
+  height: 90vh;
+  overflow: hidden;
+}
+.leaveItem {
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+li {
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.btn-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:300px;
+  height: 70px;
+}

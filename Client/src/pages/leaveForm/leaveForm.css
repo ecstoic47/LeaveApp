@@ -1,0 +1,121 @@
+.leaveApp{
+    height: auto;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(135deg, #71B7E6, #9B59B6);
+   
+}
+
+
+.title{
+    margin:30px;
+    font-size: 50px;
+    font-weight:400;
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+   
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.09),
+        rgba(255, 255, 255, 0.09)
+      );
+    padding: 30px 30px 60px;
+    border-radius:10px;
+    margin-bottom: 120px;
+}
+
+.user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px;
+   
+}
+
+.input-box{
+    margin-bottom: 20px;
+    width: calc(100% /2 - 20px);
+}
+
+input:disabled {
+   background-color: white;
+   cursor:not-allowed;
+  }
+
+
+.leave-input{
+    height: 45px;
+    width: 90%;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+}
+.leave-input:focus{
+    outline: none;
+}
+
+.details{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.category{
+    display: flex;
+    width: 80%;
+    margin:14px, 0;
+    padding-top: 10px;
+    
+    justify-content: space-between;
+}
+
+.category label{
+    display: flex;
+    align-items: center;
+}
+.dot{
+    height: 18px;
+    width:18px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+}
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .three{
+    border-color:#d9d9d9 ;
+    background:#9B59B6;
+}
+
+.radio{
+    display: none;
+  }
+
+  .leave-title{
+      padding-bottom: 10px;
+  }
+
+.button{
+    height: 45px;
+    margin:45px 0;
+}
+.button input{
+    height: 100%;
+    width:100%;
+    outline: none;
+    color: floralwhite;
+    background: linear-gradient(135deg, #71B7E6, #9B59B6);
+    border:none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+
+.button input:hover{
+    background: linear-gradient(-135deg, #71B7E6, #9B59B6);
+}
